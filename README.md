@@ -1,8 +1,10 @@
 # Hunter Codefest 2020-2021
 
 # Team Info
-### Team name: 
+### Team name: The Three Quaranteers
 ### Team members (format: GitHub username, last name, first name):
+njng2 Ng, Nancy 
+
 
 ### Group info (check all that apply - add an X in the [ ])
 - [ ] We are a Daedalus Google Mentorship group
