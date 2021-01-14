@@ -5,14 +5,10 @@
 # How to install
 
 
-1.) Install Node.js 
+1.) Install XCode 
 
-https://nodejs.org/en/download/
+2.) Install Xcode components from App Store 
 
-2.) Install Expo- Cli 
-```
-npm install -g expo cli 
-```
 
 
 # How to run
