@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02CDAF685192D2AEA7BF4A7B /* Pods_codefest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3103CC25CC31B93DE5B8B8B9 /* Pods_codefest.framework */; };
+		B943442C25B719FC00A41101 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B943442B25B719FC00A41101 /* GoogleService-Info.plist */; };
 		D2CEEC3B25AD8262000E6DC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEEC3A25AD8262000E6DC6 /* AppDelegate.swift */; };
 		D2CEEC3D25AD8262000E6DC6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEEC3C25AD8262000E6DC6 /* SceneDelegate.swift */; };
 		D2CEEC3F25AD8262000E6DC6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEEC3E25AD8262000E6DC6 /* MapViewController.swift */; };
@@ -17,12 +18,14 @@
 		D2CEEC5A25B16A99000E6DC6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEEC5925B16A99000E6DC6 /* LoginViewController.swift */; };
 		D2CEEC5D25B16AAF000E6DC6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEEC5C25B16AAF000E6DC6 /* SignUpViewController.swift */; };
 		D2CEEC6025B16ABD000E6DC6 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CEEC5F25B16ABD000E6DC6 /* WelcomeViewController.swift */; };
+		D2F3883125B7E4FD008EB0E1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F3883025B7E4FD008EB0E1 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3103CC25CC31B93DE5B8B8B9 /* Pods_codefest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_codefest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D1075BEE990C37E515CC75 /* Pods-codefest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codefest.release.xcconfig"; path = "Target Support Files/Pods-codefest/Pods-codefest.release.xcconfig"; sourceTree = "<group>"; };
 		B919F2174C3565E1B7B1D47B /* Pods-codefest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-codefest.debug.xcconfig"; path = "Target Support Files/Pods-codefest/Pods-codefest.debug.xcconfig"; sourceTree = "<group>"; };
+		B943442B25B719FC00A41101 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D2CEEC3725AD8262000E6DC6 /* codefest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codefest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2CEEC3A25AD8262000E6DC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2CEEC3C25AD8262000E6DC6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		D2CEEC5925B16A99000E6DC6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D2CEEC5C25B16AAF000E6DC6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D2CEEC5F25B16ABD000E6DC6 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		D2F3883025B7E4FD008EB0E1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				D2CEEC4325AD8267000E6DC6 /* Assets.xcassets */,
 				D2CEEC4525AD8267000E6DC6 /* LaunchScreen.storyboard */,
 				D2CEEC4825AD8267000E6DC6 /* Info.plist */,
+				B943442B25B719FC00A41101 /* GoogleService-Info.plist */,
+				D2F3883025B7E4FD008EB0E1 /* Constants.swift */,
 			);
 			path = codefest;
 			sourceTree = "<group>";
@@ -112,6 +118,7 @@
 				D2CEEC3425AD8262000E6DC6 /* Frameworks */,
 				D2CEEC3525AD8262000E6DC6 /* Resources */,
 				04232460E8B16232BAFD1E86 /* [CP] Copy Pods Resources */,
+				E50578532CC4C4802088B463 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2CEEC4725AD8267000E6DC6 /* LaunchScreen.storyboard in Resources */,
+				B943442C25B719FC00A41101 /* GoogleService-Info.plist in Resources */,
 				D2CEEC4425AD8267000E6DC6 /* Assets.xcassets in Resources */,
 				D2CEEC4225AD8262000E6DC6 /* Main.storyboard in Resources */,
 			);
@@ -207,6 +215,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E50578532CC4C4802088B463 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codefest/Pods-codefest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-codefest/Pods-codefest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-codefest/Pods-codefest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -218,6 +243,7 @@
 				D2CEEC5D25B16AAF000E6DC6 /* SignUpViewController.swift in Sources */,
 				D2CEEC3F25AD8262000E6DC6 /* MapViewController.swift in Sources */,
 				D2CEEC5A25B16A99000E6DC6 /* LoginViewController.swift in Sources */,
+				D2F3883125B7E4FD008EB0E1 /* Constants.swift in Sources */,
 				D2CEEC3B25AD8262000E6DC6 /* AppDelegate.swift in Sources */,
 				D2CEEC3D25AD8262000E6DC6 /* SceneDelegate.swift in Sources */,
 			);
@@ -367,15 +393,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XYQNP6QLBK;
+				DEVELOPMENT_TEAM = UP2J68N3J2;
 				INFOPLIST_FILE = codefest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = thethreequaranteer.codefest;
+				PRODUCT_BUNDLE_IDENTIFIER = codefest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -387,15 +416,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = XYQNP6QLBK;
+				DEVELOPMENT_TEAM = UP2J68N3J2;
 				INFOPLIST_FILE = codefest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = thethreequaranteer.codefest;
+				PRODUCT_BUNDLE_IDENTIFIER = codefest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
