@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //This connects app to firebase once the app starts up
         FirebaseApp.configure()
+        
+            
         return true
 
        

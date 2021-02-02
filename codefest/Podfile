@@ -2,7 +2,6 @@
 # platform :ios, '9.0'
 
 
-source 'https://github.com/CocoaPods/Specs.git'
 target 'codefest' do
         use_frameworks!
         # Pods for codefest
@@ -20,5 +19,8 @@ target 'codefest' do
         pod 'SwiftyJSON', '5.0'
         pod 'Alamofire', '5.4'
         pod 'Firebase/Database'
+        pod 'Cosmos'
+        pod 'TinyConstraints'
+        pod 'DropDown'
         #https://firebase.google.com/docs/ios/setup#available-pods
 end

@@ -14,8 +14,11 @@ import Firebase
 class WelcomeViewController: UIViewController {
    
    
+    @IBOutlet weak var login: UIButton!
+    @IBOutlet weak var signUp: UIButton!
     override func viewDidLoad() {
-       
+        login.layer.cornerRadius = 15
+        signUp.layer.cornerRadius = 15
         _ = Auth.auth().addStateDidChangeListener { (auth, user) in
             if user != nil{
                 let mapViewController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.mapViewController) as? MapViewController

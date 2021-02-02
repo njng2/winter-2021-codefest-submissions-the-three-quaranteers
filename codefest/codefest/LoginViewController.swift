@@ -20,6 +20,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginButton: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
+        loginButton.layer.cornerRadius = 13
     }
     
     @IBAction func loginConfirmation(_ sender: Any) {
