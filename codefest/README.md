@@ -9,7 +9,7 @@ based on cleanliness, proof of purchase requirement, single stalled or multi-sta
 This app uses Swift, Google Maps, and Firebase and Cloud Firestore for realtime database.
 
 
-**To get started:**
+## To get started:
 
 Sign up, and allow the app permissions to access your current location 
 
