@@ -1,7 +1,7 @@
 
 # Toilecator
 
-**Have you ever been outside and you really needed to use the bathroom? Or that you didn't know that you had to buy something before using the bathroom? Or if you walked into a really gross bathroom? Well- this app we built could help with that! **
+**Have you ever been outside and you really needed to use the bathroom? Or that you didn't know that you had to buy something before using the bathroom? Or if you walked into a really gross bathroom? Well- this app we built could help with that!
 
 **The Toicator** is a maps tool for users to find the nearest bathroom and filter their choices  
 based on cleanliness, proof of purchase requirement, single stalled or multi-stalled.  
