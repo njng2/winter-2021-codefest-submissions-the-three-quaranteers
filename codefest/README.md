@@ -32,7 +32,7 @@ Navigate to the search bar, and type in the nearest restaurants, coffee shop or 
 
 It will take you to the nearest place near you and the routes and you can choose your bathroom based on other users' reviews and rates! 
 
-**You may also rate and write reviews about the bathroom!**
+**You may also rate the bathroom!**
 
 
 ![](https://i.imgur.com/saNXKl4.gif)
