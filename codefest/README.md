@@ -5,7 +5,10 @@
 **The Toicator** is a maps tool for users to find the nearest bathroom and filter their choices  
 based on cleanliness, proof of purchase requirement, single stalled or multi-stalled.  
 
-This app uses Swift, Googles Maps, and Firebase.
+This app uses Swift, Google Maps, and Firebase and Cloud Firestore for realtime database.
+
+
+**To get started:**
 
 Sign up, and allow the app permissions to access your current location 
 
@@ -16,3 +19,6 @@ Navigate to the search bar, and type in the nearest restaurants, coffee shop or 
 It will take you to the nearest place near you and the routes and you can choose your bathroom based on other users' reviews and rates! 
 
 **You may also rate and write reviews about the bathroom!**
+
+
+![](https://i.imgur.com/saNXKl4.gif)
